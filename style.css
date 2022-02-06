@@ -1,0 +1,48 @@
+body{
+	width: 1100px;
+	height: 700px;
+	position: relative;
+	background-color:bisque
+}
+.wrapper{
+	position: absolute;
+	top: 40%;
+	left: 70%;
+}
+
+#country {
+	width: 240px;
+}
+
+.countryInfo {
+	width: 300px;
+}
+.official-name {
+	padding: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	justify-content: center;
+	text-align: center;
+}
+
+.forError {
+	color: red;
+}
+
+.flag-part {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flag-part img {
+	width: 100px;
+	height: 100px;
+}
+
+.capital-part {
+	padding-top: 10px;
+}
+
+.population-part {
+	padding-top: 5px;
+}
